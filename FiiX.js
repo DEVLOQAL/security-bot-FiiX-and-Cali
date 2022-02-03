@@ -54,19 +54,19 @@ calli.on("message", message => {
     }, cdtime * 1000);
     let embed = new Discord.MessageEmbed()
       .setColor(callicolor)
-      .setImage(`https://media.discordapp.net/attachments/829751738717306920/835146132023279616/image0.png`)
+      .setImage(`https://media.discordapp.net/attachments/924036670997823558/938827180631273522/IMG_1299.jpg`)
       .setDescription(`
 👑 OwnerCode 
-(ᖴ𝗂𝗂᙭#9480,AMxSakran^#3799)
+(ELLIOT ,7ARBII)
 🤖 Securitybots 
-(Anti Vandalism#6064)
+(SEC|dts)
       `)
-      .setThumbnail(`https://media.discordapp.net/attachments/829751738717306920/835145114519208017/image0.gif`)
+      .setThumbnail(`https://media.discordapp.net/attachments/938159447128305717/938808953956106360/standard.gif`)
     message.channel.send({ embed });
   }
 });
 ///////////////////////////////////////////////////////////////////////////////
-calli.login("تــــــۆکــیــن لێرە دانێ")
+calli.login("")
 ///////////////////////////////////////////////////////////////////////////////
 const FiiXenabled  = "";
 const FiiXdisabled = "";
@@ -79,7 +79,7 @@ const FiiXwarn     = "";                                                        
 ///////////////////////////////////////////////////////////////////////////////
 calli.on("ready", () => {
   console.log(`${calli.user.tag}`);
-  calli.user.setActivity(`${prefix}help`, {
+  calli.user.setActivity(`${prefix}help |Security`, {
     Type: "Playing"
   });
 });
@@ -129,7 +129,7 @@ FiiX.on("message", async message => {
 \`${prefix}punishment\`
 
 **Links**
-[Support](https://discord.gg/9qBvN4DhT5) - [Invite](https://discord.com/api/oauth2/authorize?client_id=866215659092180992&permissions=8&scope=bot) - [Website](/)
+[Support](https://discord.gg/XQ3v2ny7dH) - [Invite](https://discord.com/api/oauth2/authorize?client_id=938808323346673775&permissions=8&scope=bot) - [Website](/)
       
       
       `);
